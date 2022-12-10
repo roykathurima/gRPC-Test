@@ -1,4 +1,4 @@
-import { sendUnaryData, ServerReadableStream, ServerUnaryCall, ServerWritableStream, UntypedHandleCall } from "@grpc/grpc-js";
+import { sendUnaryData, ServerReadableStream, ServerUnaryCall, ServerWritableStream } from "@grpc/grpc-js";
 import { Empty } from "google-protobuf/google/protobuf/empty_pb";
 import { IUsersServer } from "../proto/users_grpc_pb";
 import { User, UserRequest } from "../proto/users_pb";
