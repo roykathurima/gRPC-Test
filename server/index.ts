@@ -8,4 +8,5 @@ server.addService(UsersService, new UsersServer());
 server.bindAsync('localhost:4003', ServerCredentials.createInsecure(), (err, pNo) => {
   if (err) throw err;
   console.log('running on port', pNo);
+  server.start();
 });
